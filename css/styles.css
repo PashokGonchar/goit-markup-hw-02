@@ -204,6 +204,10 @@ body {
   flex-grow: 0;
 }
 
+.advantages{
+  visibility: hidden;
+}
+
 .our-advantages {
   position: absolute;
   width: 1128px;
@@ -294,6 +298,21 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.algorithm {
+  position: absolute;
+width: 323px;
+height: 40px;
+left: 559px;
+top: 1016px;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
 }
 
 /* h2 {
