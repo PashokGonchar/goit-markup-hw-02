@@ -1,3 +1,9 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #404bbf;
+}
+
 .list {
   list-style: none;
 }
@@ -7,14 +13,12 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font);
 }
-
 /* HEADER */
 
 .logo {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -24,8 +28,7 @@ body {
 }
 
 .logo-web {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -44,7 +47,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .contacts {
@@ -57,7 +60,7 @@ body {
 }
 .contact-mail-link:hover,
 .contact-mail-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 /* HERO  */
@@ -88,6 +91,6 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background: var(--accent-color);
   cursor: pointer;
 }
