@@ -31,25 +31,17 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
 }
 
 .logo-web {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1 33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--logo-color);
 }
 
 .menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-color-title);
 }
 
 .menu-link:hover,
@@ -60,7 +52,7 @@ body {
 .contact-mail-link {
   font-style: normal;
   font-size: 16px;
-  line-height: 1 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color-title);
 }
@@ -68,7 +60,7 @@ body {
 .contact-phone-number-link {
   font-style: normal;
   font-size: 16px;
-  line-height: 1 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color-title);
 }
@@ -125,7 +117,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-color-title);
 }
 
 .subject {
@@ -133,7 +124,6 @@ body {
   line-height: 1.12;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--primary-color-title);
 }
 
 .team-name {
@@ -141,7 +131,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-color-title);
 }
 
 .team-section {
@@ -160,11 +149,5 @@ body {
 }
 
 .logo-footer {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--footer-logo);
 }
