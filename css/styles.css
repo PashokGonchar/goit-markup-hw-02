@@ -1,7 +1,7 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  --primary-color-title: #2E2F42;
+  --primary-color-title: #2e2f42;
   --secondary-color-title: #434455;
   --accent-color: #404bbf;
 }
@@ -23,7 +23,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1, 33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color-title);
@@ -33,7 +33,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1, 33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -42,7 +42,7 @@ body {
 .menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--primary-color-title);
 }
@@ -56,7 +56,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--secondary-color-title);
 }
@@ -74,7 +74,7 @@ body {
 .hero-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -95,4 +95,23 @@ body {
 .hero-button:focus {
   background: var(--accent-color);
   cursor: pointer;
+}
+
+.footer {
+  background: var(--primary-color-title);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
