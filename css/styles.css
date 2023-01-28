@@ -4,6 +4,7 @@
   --primary-color-title: #2e2f42;
   --secondary-color-title: #434455;
   --accent-color: #404bbf;
+  --logo-color:#4d5ae5;
 }
 
 .list {
@@ -36,7 +37,7 @@ body {
   line-height: 1, 33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .menu-link {
@@ -54,11 +55,10 @@ body {
 
 .contacts {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-title);
+  color:var(--secondary-color-title);
 }
 .contact-mail-link:hover,
 .contact-mail-link:focus {
@@ -97,9 +97,47 @@ body {
   cursor: pointer;
 }
 
+.title-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-title);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-title);
+}
+
+.subject {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color-title);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-title);
+}
+
+.team-section {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-title);
+}
+
 .footer {
   background: var(--primary-color-title);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
