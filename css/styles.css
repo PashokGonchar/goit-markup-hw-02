@@ -4,7 +4,7 @@
   --primary-color-title: #2e2f42;
   --secondary-color-title: #434455;
   --accent-color: #404bbf;
-  --logo-color:#4d5ae5;
+  --logo-color: #4d5ae5;
 }
 
 .list {
@@ -53,13 +53,22 @@ body {
   color: var(--accent-color);
 }
 
-.contacts {
+.contact-mail-link {
   font-style: normal;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
-  color:var(--secondary-color-title);
+  color: var(--secondary-color-title);
 }
+
+.contact-phone-number-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-title);
+}
+
 .contact-mail-link:hover,
 .contact-mail-link:focus {
   color: var(--accent-color);
